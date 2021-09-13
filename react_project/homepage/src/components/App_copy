@@ -1,0 +1,102 @@
+＜Link使ったバージョン＞
+
+import React from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { Home, About, Foods, Contact } from './components/index';
+import './App.css';
+
+
+const App = () => {
+
+  return (
+    <div >
+        <BrowserRouter>
+            <div>
+                <div className="link-bar">
+                    <div className="title-link">
+                        <Link to='/'>ベルミート</Link>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li><Link to='/'>ホーム</Link></li>
+                            <li><Link to='/About'>基本情報</Link></li>
+                            <li><Link to='/Foods'>商品</Link></li>
+                            <li><Link to='/Contact'>お問い合わせ</Link></li>
+                        </ul>
+                    </nav>
+                </div>
+                <hr />
+              
+                <Route exact path='/' component={Home} />
+                <Route path='/About' component={About} />
+                <Route path='/Foods' component={Foods} />
+                <Route path='/Contact' component={Contact} />
+            </div>
+        </BrowserRouter>
+      
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+＜Hash-Link使ったバージョン＞
+
+import React from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom'
+import {HashLink} from 'react-router-hash-link';
+import { Home, About, Foods, Contact } from './components/index';
+import './App.css';
+
+
+const App = () => {
+
+  return (
+    <div >
+        <BrowserRouter>
+            <div>
+                <div className="nav-bar">
+                    <div className="link-bar">
+                        <div className="title-link">
+                            <HashLink to='/'>ベルミート</HashLink>
+                        </div>
+
+                        <nav>
+                            <ul>
+                                <li><HashLink to='/#home'>ホーム</HashLink></li>
+                                <li><HashLink to='/#about'>基本情報</HashLink></li>
+                                <li><HashLink to='/#foods'>商品</HashLink></li>
+                                <li><HashLink to='/#contact'>お問い合わせ</HashLink></li>
+                            </ul>
+                        </nav>
+                    </div>                
+                    <hr />
+                </div>
+
+                <div className="components-box">
+                    <Home />
+                    <About />
+                    <Foods />
+                    <Contact />
+                </div>
+
+              
+            </div>
+        </BrowserRouter>
+      
+    </div>
+  );
+}
+
+export default App;

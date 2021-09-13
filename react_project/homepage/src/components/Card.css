@@ -1,0 +1,52 @@
+.card {
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.04);  
+  position: relative;
+}
+
+
+.card__link {
+  text-decoration: none;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.card__img {
+  width: 450px;
+  height: 270px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.kari :hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.card__content {
+  /* height: 180px; */
+  color: #fff;
+  position: absolute;
+  top: 80px;
+  width: 450px;
+}
+
+.card__content :hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.card__title {
+  text-align: center;
+  font-size: 24px;
+  margin: 18px 0;
+
+}
+
+.card__lead {
+  text-align: center;
+  padding: 0 40px;
+  font-size: 12px;
+}
+

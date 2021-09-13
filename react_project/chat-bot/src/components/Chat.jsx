@@ -6,7 +6,7 @@ import NoProfile from '../assets/img/ハリー２.jpg';
 import Torahack from '../assets/img/zoomダンブルドア２.jpg'; 
 
 const Chat = (props) => {
-  const isQuestion = (props.type === 'question'); /* ⇒三項演算子 */  
+  const isQuestion = (props.type === 'question');   
   const classes = isQuestion ? 'p-chat__row' : 'p-chat__reverse';
   return(
     <ListItem className={classes}>

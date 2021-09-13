@@ -6,31 +6,30 @@
             {"content": "ゲーム実況を見る", "nextId": "game_play"},
             {"content": "会員になりたい", "nextId": "add_user"}
         ],
-        "question": "こんにちは！反応アプリへのご用件はなんでしょうか？"
+        "question": "やあハリー、何をお探しかな？"
     },
     "search_game": {
         "answers": [
-            {"content": "おすすめ１", "nextId": "https://store.steampowered.com/app/339200"},
-            {"content": "おすすめ２", "nextId": "https://store.steampowered.com/app/413420/2/"},
-            {"content": "おすすめ３", "nextId": "https://store.steampowered.com/app/249590/Teslagrad/"},
-            {"content": "おすすめ４", "nextId": "https://store.steampowered.com/app/57740/Jagged_Alliance__Back_in_Action/"},
+            {"content": "おすすめ１を見る", "nextId": "https://store.steampowered.com/app/339200"},
+            {"content": "おすすめ２を見る", "nextId": "https://store.steampowered.com/app/413420/2/"},
+            {"content": "おすすめ３を見る", "nextId": "https://store.steampowered.com/app/249590/Teslagrad/"},
             {"content": "その他", "nextId": "other"}
         ],
-        "question": "どんなゲームをお探しですか？"
+        "question": "わしおすすめのゲームじゃよ。"
     },
     "other": {
         "answers": [
             {"content": "問い合わせる", "nextId": "contact"},
             {"content": "最初の質問に戻る", "nextId": "init"}
         ],
-        "question": "その他についてですね。コチラからお問い合わせできます。"
+        "question": "その他については、スネイプ先生に聞くのじゃ。"
     },
     "friend": {
         "answers": [
-            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "ゲームアカウントを教える", "nextId": "contact"},
             {"content": "最初の質問に戻る", "nextId": "init"}
         ],
-        "question": "ゲーム仲間の募集ですね。一緒にゲームしましょう！"
+        "question": "一緒にゲームしよ。"
     },
     "game_play": {
         "answers": [
@@ -39,13 +38,13 @@
             {"content": "YouTubeで{実況者③}の動画を見る", "nextId": "https://www.youtube.com/channel/UCrAq8h6Q3xGxzUC-84YD9PQ"},
             {"content": "最初の質問に戻る", "nextId": "init"}
         ],
-        "question": "おすすめのゲーム実況者です。"
+        "question": "ホグワーツで人気のゲーム実況者じゃ。"
     },
     "add_user": {
         "answers": [
             {"content": "ユーザー登録する", "nextId": "user"},
             {"content": "最初の質問に戻る", "nextId": "init"}
         ],
-        "question": "ここから会員登録できます。"
+        "question": "会員登録はこちらから。"
     }
   }
