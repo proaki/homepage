@@ -1,19 +1,5 @@
-
 @import url('https://fonts.googleapis.com/earlyaccess/hannari.css');
-
-/* body */
-/* body {  
-  position: relative;
-} */
-
-
-
-
-
-
-
-/* App */
-
+/* nav-bar */
 .nav-box {
   position: fixed;
   width: 10%;
@@ -21,36 +7,31 @@
   background-color: #282c34;
   z-index: 2;
 }
-
-.link_home {  
-  font-size: 30px;
-  font-family: "Hannari";
-  writing-mode: vertical-rl;
-  margin: 0 auto ;
-}
-
-
-
 .nav-box > ul {
   list-style: none;
   padding: 0;
   position: relative;
 }
-
 .nav-box > ul > li {
   display: flex;
+  margin-bottom: 20px; 
 }
-
 .nav-box > ul > li > a {  
   color: #e7e0d2;
   text-decoration: none;
 }
-
-
-.App > .App__body {
-  margin: 0 20% 50px;
+.link_home {  
+  font-size: 30px;
+  font-family: "Hannari";
+  writing-mode: vertical-rl;
+  margin: 0 auto 50px;
 }
 
+
+/* cards */
+.App > .App__body {
+  margin: 0 20px 50px 280px;
+}
 .cards {
   display: flex;
   width: 1000px;
@@ -59,73 +40,54 @@
 }
 
 
-
-
-
-
-
-
 /* home */
-
 .slide {
+  width: 1425px;
   margin-bottom: 20px;
 }
-
 .about {
   width: 1000px;
   margin: 0 20% 50px;
   font-family: "Verdana", sans-serif ;
 }
-/* "Hannari" */
-
 .about > .text__box {
-  border: solid 1px #000;
-  border-radius: 20px;  
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2);    
-};
-
+  margin: 40px 20px 50px;
+}
+.about > .info__box > h2 {
+  margin-left: 20px;
+}
 .Home__table_tr {
   display: flex;
 }
-
 .Home__table_td {
-  width:100px;
+  width:200px;
 }
-
-
-
-
 
 
 /* Foods */
 .main-container {
   margin: 0 20%;
 }
-
 .recommend-container {
   display: flex;
   width: 1000px;
   margin: 0 auto 10px;
   border-bottom: 1px solid #000;
 }
-
 .commodity-container {
   margin: 30px auto 50px;
   width: 1000px;
 }
-
 .Foods__table {  
   width: 1000px;
   margin: 0 auto;
 }
-
 .Foods__table > p {
   margin: 20px 0 10px 30px;
   font-family: "Hannari";
   font-weight: bold;
   font-size: 20px;
 }
-
 .Foods__table > tr > th {
   background-color: #e7e0d2;
   width: 20%;
@@ -133,7 +95,6 @@
   list-style: none;
   font-family: "Verdana", sans-serif ;
 }
-
 .Foods__table > tr > td {
   background-color: #fff8ea;
   text-align: left;
@@ -141,41 +102,18 @@
   font-family: "Verdana", sans-serif ;
 }
 
-.image__table {
-  border-bottom: 1px solid #000;
-  width: 800px;
-  text-align: center;
-  margin: 0 auto;
-}
 
-.image__table_tr {
-  display: flex;
-}
-
-.image__table_td {
-  width: 500px;
-  height: 200px;
-  line-height: 200px;
-}
-
-.table_image {  
-  width: 280px;
-  height: 200px;
-}
-
-
+/* Foods_nav_bar */
 .nav_box {
   width: 1000px;
   margin: 0 auto;
   background-color: #fff8ea;
 }
-
 .nav__ul {
   padding: 0;
   display: flex;
   margin-top: 0;
 }
-
 .nav__ul > li {
   list-style: none;
   width: 250px;
@@ -183,129 +121,365 @@
   height: 40px;
   line-height: 40px;
 }
-
 .nav__ul > li > a {
   display: block;
   justify-content: space-around;
   width: 100%;
 }
-
 .nav__ul > li :hover {
   cursor: pointer;
   background-color: #e7e0d2;
 }
-
-
-
+    .image__table {
+      border-bottom: 1px solid #000;
+      width: 800px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .image__table_tr {
+      display: flex;
+    }
+    .image__table_td {
+      width: 500px;
+      height: 200px;
+      line-height: 200px;
+    }
+    .table_image {  
+      width: 280px;
+      height: 200px;
+    }
 
 
 /* Access */
 .access-box {  
   margin: 0 20%;
 }
-
 .access__table-box {
-  margin: 0 0 50px 0;
+  margin-bottom: 50px;
 }
-
 .access__table {
   width: 1000px;
   margin: 0 auto;
 }
-
 .access__table > p {  
   margin: 20px 0 10px 30px;
   font-family: "Hannari";
   font-weight: bold;
   font-size: 20px;
 }
-
-/* .access__table > tr {
-  display: flex;
-} */
-
 .access__table > tr > th {
   background-color: #e7e0d2;
   width: 15%;
   text-align: center;
   font-family: "Verdana", sans-serif ;
 }
-
 .access__table > tr > td {
   background-color: #fff8ea;
   text-align: left;
   font-weight: normal;
   font-family: "Verdana", sans-serif ;
 }
-
 .access__table > tr > td > ul {
-  /* list-style: none; */
   padding-left: 20px;
 }
-
 .access__table > tr > td > ul > p {
   margin-top: 0;
 }
 
 
-
-
-
-
-
 /* Contact */
 .contact-box {
   margin: 0 20%;
+  width: 125px;
 }
-
 .contact-box > p {
-  margin: 0 0 10px 30px;
+  margin: 0 0 10px 20px;
   font-family: "Hannari";
   font-weight: bold;
   font-size: 20px;
 } 
-
 .formdialog-box {
-  margin: 30px 0 30px 30px;
+  margin: 20px 0 20px 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
 }
 
 
 
 
+@media screen and (max-width: 1024px) {
+/* home */
+    .slide {
+      width: 1000px;
+    }
+    .about {
+      width: 800px;
+      margin: 0 20px 50px 110px;
+    }
+  
+/* cards */
+    .App > .App__body {
+      margin: 0 20px 50px 150px;
+    }
+    .cards {
+      width: 750px;
+    }
 
-
-/* logo */
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Foods */
+    .main-container {
+      margin: 0 150px;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+@media screen and (max-width: 896px) {
+/* home */
+    .slide {
+      width: 850px;
+    }
+    .about {
+      width: 700px;
+    }
+
+/* cards */
+    .cards {
+      width: 650px;
+    }
+
+/* Foods */
+    .main-container {
+      margin-left: 110px;
+      width: 700px;
+    }
+    .recommend-container {
+      width: 700px;
+      font-size: 12px;
+    }
+    .commodity-container {
+      width: 700px;
+    }
+    .Foods__table {  
+      width: 700px;
+    }
+    .Foods__table > p {
+      font-size: 12px;
+    }
+      
+/* foods_nav */
+    .nav_box {
+      width: 600px;
+      margin-bottom: 20px;
+    }
+    .nav__ul {
+      display: inline-block;
+      margin: 0 auto;
+      font-size: 12px;
+    }
+    .nav__ul > li {
+      width: 600px;
+      font-size: 12px;
+    }
+      .image__table {
+        width: 550px;
+      }
+      .image__table_td {
+        width: 400px;
+        height: 100px;
+        line-height: 100px;
+      }
+      .image__table_td > p {
+        font-size:12px;
+      }
+      .table_image {  
+        width: 150px;
+        height: 100px;
+      }      
+      
+/* Access */
+    .access-box {  
+      margin: 0 0 0 60px;
+    }
+    .access__table {
+      width: 650px;
+    }
+    .access__table  p {  
+      font-size: 13px;
+    }
+    .access__table > tr > td {
+      font-size: 13px;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+/* home */
+     .slide {
+      width: 480px;
+    }
+    .about {
+      width: 380px;
+      margin: 0 20px 50px 70px;
+    }
+    .about > .text__box {
+      margin: 20px 10px 30px;
+    }
+    .about > .text__box > h2,p {
+      font-size: 14px;
+    }
+    .about > .info__box > h2 {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+    .Home__table_tr, .Home__table_td {
+      font-size: 14px;
+    }
+    .Home__table_td {
+      width:100px;
+    }
+
+/* nav */
+    .nav-box {
+      font-size:12px;
+    }
+  
+/* cards */
+    .App > .App__body {
+      margin: 0 20px 50px 100px;    
+    }
+    .cards {
+      width: 350px;
+    }
+
+/* Foods */
+   .main-container {
+    margin-left: 80px;
+    width: 400px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .recommend-container {
+    width: 400px;
+    font-size: 9px;
   }
-  to {
-    transform: rotate(360deg);
+  .commodity-container {
+    margin: 30px 0px;
+    width: 400px;
   }
+  .Foods__table {  
+    width: 400px;
+  }
+  .Foods__table > p {
+    margin: 20px 0 0 0;
+    font-size: 12px;
+  }
+
+/* foods_nav */
+  .nav_box {
+    width: 400px;
+  }
+  .nav__ul > li {
+    width: 400px;
+    font-size: 9px;
+  }
+    .image__table {
+      width: 380px;
+    }
+    .image__table_td {
+      width: 280px;
+      height: 80px;
+      line-height: 80px;
+    }
+    .image__table_td > p {
+      font-size:10px;
+    }
+    .table_image {  
+      width: 100px;
+      height: 80px;
+    }
+
+/* Access */
+    .access__table {
+      width: 350px;
+      font-size: 12px;    
+    }
+    .access__table  p {  
+      margin: 0px;
+      font-size: 11px;
+    }
+    .access__table > tr > td {
+      font-size: 10px;
+    }
+
+/* Contact */
+    .contact-box {
+      width: 135px;
+    }
+    .contact-box > p {
+      font-size: 15px;
+    } 
+    .formdialog-box {
+      margin: 30px 0 30px 30px;
+    }  
+}
+
+
+
+@media screen and (max-width: 376px) {
+/* home */
+     .slide {
+      width: 375px;
+    }
+    .about {
+      width: 300px;
+      margin: 0 10px 50px 60px;
+    }  
+
+/* cards */
+    .App > .App__body {
+      margin: 0 10px 50px 80px;
+    }
+    .cards {
+      width: 280px;
+    }
+
+/* Foods */
+   .main-container {
+    margin-left: 50px;
+    width: 300px;
+  }
+  .recommend-container {
+    width: 300px;
+  }
+  .commodity-container {
+    width: 300px;
+  }
+  .Foods__table {  
+    width: 300px;
+  }
+    
+/* foods_nav */
+  .nav_box {
+    width: 300px;
+  }
+  .nav__ul > li {
+    width: 300px;
+  }
+    .image__table {
+      width: 280px;
+      margin: 0;
+    }
+    .image__table_td {
+      width: 180px;
+    }
+    .table_image {  
+      width: 90px;
+    }
+
+/* Access */
+  .access-box {  
+    margin-left: 50px;
+  }
+  .access__table {
+    width: 300px; 
+  } 
 }
