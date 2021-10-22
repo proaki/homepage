@@ -1,38 +1,45 @@
 {
-  "url_list":[
-    "https://www.mannoya.com/mannoyawp/wp-content/themes/mannoya_ver1904/img/top/top_slider4@2x.jpg",
-    "https://www.mannoya.com/mannoyawp/wp-content/themes/mannoya_ver1904/img/top/top_slider2@2x.jpg"
-  ],
-
-  "yoyaku_list":[
-    {"id":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ1cqPmEFzyzDQVNXY_ztAMwQ0iC8hV-aRAg&usqp=CAU", "content":"焼肉コース：3000円"},
-    {"id":"http://www.marukome.co.jp/files/recipe/3446/5ab85ec7-8aa8-42ed-8829-42961b85f192.jpg", "content":"しゃぶしゃぶコース：3000円"},
-    {"id":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK38jFuRb-ZKiTLVuaAVqi_SOQ60hFCHiw7Q&usqp=CAU", "content":"すき焼きコース：3000円"}
-  ],
-
-  "niku_list":[
-    {"id":"https://shop1-makeshop.akamaized.net/shopimages/kobegyu/000000000414_P9onjZ0.jpg", "content":"カルビ：1500円"},
-    {"id":"https://www.asahiya-beef.com/shop/item/kobegyu/picture/goods/57_1.jpg", "content":"牛ロース：2000円"},
-    {"id":"https://image1.shopserve.jp/resutohausushinohara.co.jp/pic-labo/koku_harami_01.jpg", "content":"牛ハラミ：1200円"},
-    {"id":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTISxgTV-iqnNod9sfVIEeHiO7Ly--CtAr7Qw&usqp=CAU", "content":"豚ロース：700円"},
-    {"id":"https://t.pimg.jp/019/569/449/1/19569449.jpg", "content":"豚バラ肉：800円"}
-  ],
-
-  "agemono_list":[
-    {"id":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQILkdAvpjOOClLz8w_n9eTlAx9S0zQ1DzSEQ&usqp=CAU", "content":"コロッケ：100円"},
-    {"id":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgSmfAcXH54oCknWTt9NFPEEm2S6H4aqHdYQ&usqp=CAU", "content":"ポテト：150円"},
-    {"id":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD1sqonThhTakULbE1IQ2o9g6iPUQms728RQ&usqp=CAU", "content":"唐揚げ：100円"},
-    {"id":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQie3NdY8EusOL-J8tTZhfHoy9Ag-rddC4mnA&usqp=CAU", "content":"エビフライ：150円"},
-    {"id":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFIFVw0lkJYxZMK3C4IBYnmj9B9Hna6q8yA&usqp=CAU", "content":"とんかつ：300円"}
-  ],
-
-  "other_list":[
-    {"id":"https://cdn1.esimg.jp/resize/320x240/image/food/01/37/07/4904131214281.jpg", "content":"焼肉のたれ：300円"},
-    {"id":"https://cdn.shopify.com/s/files/1/0269/1907/5953/products/product-100648_800x.jpg?v=1590722591", "content":"福島牛カレー：500円"},
-    {"id":"https://image.rakuten.co.jp/nikunoito/cabinet/k/curry/imgrc0061715197.jpg", "content":"特製ビーフカレー：600円"},
-    {"id":"https://www.e-cosmo.co.jp/images/product_pic1.png", "content":"コスモ カレー(粉末タイプ)：500円"},
-    {"id":"https://www.nipponham.co.jp/files/topics/1780_ext_11_0.jpg", "content":"ピザ：400円"}
+  "url": {
+    "url_list":[
+      "https://drive.google.com/uc?id=1dHZ9afeSsFTvppW4HSpA-_dP-I5jNHkx&.jpg",
+      "https://drive.google.com/uc?id=1KDNdh618YSYxPKngiLcw2HCH2nfH5qFM&.jpg"
+    ]
+  },
+  "yoyaku": {    
+    "yoyaku_list":[
+      {"id":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ1cqPmEFzyzDQVNXY_ztAMwQ0iC8hV-aRAg&usqp=CAU", "content":"焼肉コース：3000円"},
+      {"id":"http://www.marukome.co.jp/files/recipe/3446/5ab85ec7-8aa8-42ed-8829-42961b85f192.jpg", "content":"しゃぶしゃぶコース：3000円"},
+      {"id":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK38jFuRb-ZKiTLVuaAVqi_SOQ60hFCHiw7Q&usqp=CAU", "content":"すき焼きコース：3000円"}
+    ]
+  },
+  "niku": {    
+    "niku_list":[
+      {"id":"https://drive.google.com/uc?id=1viNxrgJy_bZcK-Yf5rlUWfv6WwxWhxqW&.jpg", "content":"牛カルビ：378円/100g"},
+      {"id":"https://drive.google.com/uc?id=1nF6RR5kjxnU6F7TQqn1q3cnh_ZoneEk6&.jpg", "content":"特選 牛カルビ：864円/100g"},
+      {"id":"https://drive.google.com/uc?id=1sALTCcxkGSRHEkFNjz0Iq0tpGSS6vR6a&.jpg", "content":"福島牛　霜降り肉(モモ肩ロース)：972円/100g"},
+      {"id":"https://drive.google.com/uc?id=1Z4QWbQoPE39b1tCxnw8VLJ8FJnXoVREa&.jpg", "content":"麓山高原　豚モモ：184円/100g"},
+      {"id":"https://drive.google.com/uc?id=1QrA2pppADVimiEPP5vvNwE4YWVc2WAtf&.jpg", "content":"麓山高原　豚肩中肉：173円/100g"},
+      {"id":"https://drive.google.com/uc?id=1nDJMfjJfSR-w4o2XWSgExuvSz9eo9zf9&.jpg", "content":"麓山高原　豚バラ肉：173円/100g"},
+      {"id":"https://drive.google.com/uc?id=10COI7wkNUohp4KbX41UENfjGZE9rIJ3F&.jpg", "content":"ローストビーフ：850円"}
+    ]
+  },
+  "agemono": {    
+    "agemono_list":[
+      {"id":"https://drive.google.com/uc?id=1RuI3pNn9BdyDaevWz4xzpXCs5xV5_qVp&.jpg", "content":"ベルコロッケ：100円"},
+      {"id":"https://drive.google.com/uc?id=1nABw9EdbK2y4D272b1oloGIouliblEIs&.jpg", "content":"メンチカツ：100円"},
+      {"id":"https://drive.google.com/uc?id=1_35cN7RIhHxvCVHMyKee3js2GQ7pAtkP&.jpg", "content":"唐揚げ：100円"},
+      {"id":"https://drive.google.com/uc?id=1zUj-EQkGWG6von81q0w1Ra-lgtdSERv7&.jpg", "content":"串カツ：150円"},
+      {"id":"https://drive.google.com/uc?id=1nZOZhxeXLiiOzkUMYUNuKawTNw87V8as&.jpg", "content":"とんかつ：300円"}
   ]
-
-  
+},
+  "other": {
+    "other_list":[
+      {"id":"https://cdn1.esimg.jp/resize/320x240/image/food/01/37/07/4904131214281.jpg", "content":"焼肉のたれ：300円"},
+      {"id":"https://cdn.shopify.com/s/files/1/0269/1907/5953/products/product-100648_800x.jpg?v=1590722591", "content":"福島牛カレー：500円"},
+      {"id":"https://image.rakuten.co.jp/nikunoito/cabinet/k/curry/imgrc0061715197.jpg", "content":"特製ビーフカレー：600円"},
+      {"id":"https://www.e-cosmo.co.jp/images/product_pic1.png", "content":"コスモ カレー(粉末タイプ)：500円"},
+      {"id":"https://www.nipponham.co.jp/files/topics/1780_ext_11_0.jpg", "content":"ピザ：400円"},
+      {"id":"https://drive.google.com/uc?id=1JnO8TqaHq2J8H4NCKzr8tDVUa0irvPo2&.jpg", "content":"他にも色々とあります"}
+    ]
+  }   
 }

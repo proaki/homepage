@@ -85,7 +85,7 @@ const FormDialog = () => {
       
       
     return(
-      <div>
+      <div className="dialog_container">
           <Button onClick={handleOpen} >お問い合わせ</Button>
           <Dialog
               open={open}

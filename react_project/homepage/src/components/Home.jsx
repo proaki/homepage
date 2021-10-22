@@ -6,7 +6,7 @@ import Text from './textdata.json';
 
 
 const Home = () => {
-  const image_list = images.url_list;
+  const image_list = images.url.url_list;
   const info_data = Text.info_data;
   const text_data = Text.text_data;
   const [count, setCount] = useState(0);
